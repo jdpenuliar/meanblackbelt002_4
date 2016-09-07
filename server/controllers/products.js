@@ -11,6 +11,7 @@ module.exports = (function(){
 						if(err){
 							res.json(err);
 						}else{
+							console.log(data);
 							res.json(data);
 						}
 					});
